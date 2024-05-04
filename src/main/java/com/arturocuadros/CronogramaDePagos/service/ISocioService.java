@@ -4,7 +4,7 @@ import com.arturocuadros.CronogramaDePagos.models.Socios;
 
 import java.util.List;
 
-public interface SocioService {
+public interface ISocioService {
     Socios registrarSocio(Socios socio);
     List<Socios> obtenerTodosLosSocios();
 }

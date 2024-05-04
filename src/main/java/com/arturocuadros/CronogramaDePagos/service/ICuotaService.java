@@ -4,6 +4,6 @@ import com.arturocuadros.CronogramaDePagos.models.Cuotas;
 
 import java.util.List;
 
-public interface CuotaService {
+public interface ICuotaService {
     List<Cuotas> generarCronogramaDePagos(Long creditoId);
 }

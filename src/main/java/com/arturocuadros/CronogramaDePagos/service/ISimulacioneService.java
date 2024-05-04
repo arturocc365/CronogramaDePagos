@@ -4,7 +4,7 @@ import com.arturocuadros.CronogramaDePagos.models.Simulaciones;
 
 import java.util.List;
 
-public interface SimulacioneService {
+public interface ISimulacioneService {
     Simulaciones registrarSimulacion(Simulaciones simulacion);
     List<Simulaciones> obtenerTodasLasSimulaciones();
 }
